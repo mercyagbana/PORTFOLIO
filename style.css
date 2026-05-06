@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+
+}
+
+img {
+    width: 100px;
+    border-radius: 10px;
+
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0d6efd;
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* DARK MODE BUTTON */
+#darkModeToggle {
+    background: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background: #0d6efd;
+    color: white;
+
+}
+
+/* PROFILE IMAGE */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+/* SECTION */
+section {
+    padding: 30px;
+    margin: 20px;
+    background: white;
+    border-radius: 10px;
+
+}
+
+h2 {
+    color: #0d6efd;
+
+}
+
+/* SKILLS */
+.skilss ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+.skilss li {
+    background: #0d6efd;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+
+}
+
+/* PROJECTS */
+.project {
+    margin-bottom: 15px;
+
+}
+
+/* DARK MODE STYLES */
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode selection {
+    background-color: #1e1e1e;
+
+}
+
+.dark-mode nav {
+    background-color: #000;
+
+}
+
+.dark-mode header {
+    background-color: #000;
+
+}
+
+.dark-mode h2 {
+    color: #66aaff;
+}
+
+.dark-mode .skilss li {
+    background: #66aaff;
+}
+
+.dark-mode #darkModeToggle {
+    background: #333;
+    color: white;
+}
